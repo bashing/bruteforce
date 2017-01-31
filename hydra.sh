@@ -1,4 +1,5 @@
 #!/bin/bash
+#http://www.bash.com.ar
 #Script to bruteforce POP3
 #
 USER_ACCOUNTS="direcciones_validas.txt"
