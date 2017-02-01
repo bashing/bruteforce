@@ -2,7 +2,7 @@
 #http://www.bash.com.ar
 #Script to bruteforce POP3
 
-USER_ACCOUNTS="direcciones_validas.txt"
+USER_ACCOUNTS="email_accounts.txt"
 DEFAULT_PASSWORDS="passwords.txt"
 LOG="medusa.log"
 
