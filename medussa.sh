@@ -1,5 +1,5 @@
 #!/bin/bash
-#http://www.openbash.com
+#https://www.openbash.com
 #Script to bruteforce POP3
 
 USER_ACCOUNTS="email_accounts.txt"
